@@ -1,0 +1,8 @@
+name: nivetha-Pipeline
+on: push
+jobs:
+  My-test-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: message
+        run: echo "CI Pipeline Running"
